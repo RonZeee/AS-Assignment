@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AS Assignment", "AS Assignment\AS Assignment.csproj", "{6CC7C1C5-3824-4486-A0D9-E86BCEB6EE13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsDBService", "AsDBService\AsDBService.csproj", "{61199A78-B1CC-46C0-909E-70E517AA03EF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{6CC7C1C5-3824-4486-A0D9-E86BCEB6EE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CC7C1C5-3824-4486-A0D9-E86BCEB6EE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CC7C1C5-3824-4486-A0D9-E86BCEB6EE13}.Release|Any CPU.Build.0 = Release|Any CPU
-		{61199A78-B1CC-46C0-909E-70E517AA03EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61199A78-B1CC-46C0-909E-70E517AA03EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61199A78-B1CC-46C0-909E-70E517AA03EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61199A78-B1CC-46C0-909E-70E517AA03EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
