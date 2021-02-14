@@ -9,7 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <asp:Label ID="Label1" runat="server" Text="User Profile"></asp:Label>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="btnLogout" runat="server" OnClick="Button1_Click" Text="Logout" Visible="False" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="btnLogout" runat="server" OnClick="Button1_Click" Text="Logout" />
         <br />
         <br />
         <asp:Label ID="lbWelcome" runat="server" ForeColor="Blue"></asp:Label>

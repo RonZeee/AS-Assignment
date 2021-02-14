@@ -30,6 +30,11 @@ namespace AS_Assignment
         protected void btnLogin_Click(object sender, EventArgs e)
         {
             errLogin.Text = HttpUtility.HtmlEncode(tbLEmail.Text);
+            if (errLogin != null)
+            {
+                errLogin.Text = "XSS Prevention occured in Email";
+            }
+
             string password = tbLPass.Text.ToString().Trim();
             string email = tbLEmail.Text.ToString().Trim();
             SHA512Managed hashing = new SHA512Managed();
